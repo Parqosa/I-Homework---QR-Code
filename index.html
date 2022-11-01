@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>QR Code</title>
+
+    <style>
+      body {
+        background-color: #d5e1ef;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      div {
+        background-color: white;
+        width: 320px;
+        border-radius: 20px;
+        overflow: hidden;
+        padding: 16px;
+        margin: 0px auto;
+      }
+      div:hover {
+        box-shadow: 0px 0px 10px 10px rgb(102, 102, 102);
+      }
+
+      .image {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      img:hover {
+      }
+
+      h1 {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+        color: #1f314f;
+      }
+      p {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.1875px;
+
+        /* Grey */
+
+        color: #7d889e;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <img src="./image-qr-code.png" alt="" class="image" />
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+  </body>
+</html>
