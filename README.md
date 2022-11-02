@@ -1,7 +1,7 @@
 # I-Homework---QR-Code
 
 * First Homework Readme file
-* Used Only HTML
+* Used Only HTML File
 
 
 
